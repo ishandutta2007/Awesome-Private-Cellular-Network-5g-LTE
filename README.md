@@ -21,7 +21,7 @@ A comprehensive resource for network engineers, telecom researchers, and enterpr
 - [🌐 Market Overview](#-market-overview)
 - [🏢 SaaS & Managed Private Cellular Platforms](#-saas--managed-private-cellular-platforms)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [⭐ Open-Source Standings & Star Badges](#-open-source-standings--star-badges)
+  - [⭐ Open-Source Standings & Stars_Badges](#-open-source-standings--star-badges)
   - [🧠 5G Core Networks](#-5g-core-networks)
   - [📡 RAN & gNodeB/eNodeB Implementations](#-ran--gnodebenodeb-implementations)
   - [🧪 Simulators, Emulators & Testing Tools](#-simulators-emulators--testing-tools)
@@ -63,25 +63,25 @@ Below are leading commercial and managed private cellular platforms sorted in **
 
 Private cellular is one of the most active open-source domains in telecommunications. Complete, production-ready 5G Core and RAN stacks can be deployed on commodity COTS hardware or software-defined radios (SDRs).
 
-### ⭐ Open-Source Standings & Star Badges
+### ⭐ Open-Source Standings & Stars_Badges
 
-Projects are sorted in **descending order by GitHub star count**. Each badge links directly to the repository's stargazers page.
+Projects are sorted in **descending order by GitHub Stars_Count**. Each badge links directly to the repository's stargazers page.
 
-| Repository | GitHub Star Count Badge | Category / Primary Focus |
+| Repository | GitHub Stars_Count Badge | Category / Primary Focus |
 | :--- | :---: | :--- |
-| **[srsRAN](https://github.com/srsran/srsRAN)** | [![GitHub stars](https://img.shields.io/github/stars/srsran/srsRAN?style=social&color=white)](https://github.com/srsran/srsRAN/stargazers) | Legacy 4G LTE eNodeB & EPC SDR Stack |
-| **[Open5GS](https://github.com/open5gs/open5gs)** | [![GitHub stars](https://img.shields.io/github/stars/open5gs/open5gs?style=social&color=white)](https://github.com/open5gs/open5gs/stargazers) | 5G SA Core & 4G EPC (C Implementation) |
-| **[free5GC](https://github.com/free5gc/free5gc)** | [![GitHub stars](https://img.shields.io/github/stars/free5gc/free5gc?style=social&color=white)](https://github.com/free5gc/free5gc/stargazers) | 3GPP R15/R16 Cloud-Native 5G Core (Go) |
-| **[Magma](https://github.com/magma/magma)** | [![GitHub stars](https://img.shields.io/github/stars/magma/magma?style=social&color=white)](https://github.com/magma/magma/stargazers) | Converged Mobile Core & Federated Gateway |
-| **[srsRAN Project](https://github.com/srsran/srsRAN_Project)** | [![GitHub stars](https://img.shields.io/github/stars/srsran/srsRAN_Project?style=social&color=white)](https://github.com/srsran/srsRAN_Project/stargazers) | Commercial-Grade 5G NR CU/DU gNodeB Stack |
-| **[UERANSIM](https://github.com/aligungr/UERANSIM)** | [![GitHub stars](https://img.shields.io/github/stars/aligungr/UERANSIM?style=social&color=white)](https://github.com/aligungr/UERANSIM/stargazers) | 5G UE & gNodeB State-Machine Simulator |
-| **[docker_open5gs](https://github.com/herlesupreeth/docker_open5gs)** | [![GitHub stars](https://img.shields.io/github/stars/herlesupreeth/docker_open5gs?style=social&color=white)](https://github.com/herlesupreeth/docker_open5gs/stargazers) | Containerized Docker Compose Open5GS Setup |
-| **[OMEC UPF](https://github.com/omec-project/upf)** | [![GitHub stars](https://img.shields.io/github/stars/omec-project/upf?style=social&color=white)](https://github.com/omec-project/upf/stargazers) | High-Performance 5G/4G User Plane (ONF SD-Core) |
-| **[OpenAirInterface (OAI)](https://github.com/OPENAIRINTERFACE/openairinterface5g)** | [![GitHub stars](https://img.shields.io/github/stars/OPENAIRINTERFACE/openairinterface5g?style=social&color=white)](https://github.com/OPENAIRINTERFACE/openairinterface5g/stargazers) | 3GPP 4G/5G Full Stack (RAN, Core, O-RAN) |
-| **[towards5gs-helm](https://github.com/Orange-OpenSource/towards5gs-helm)** | [![GitHub stars](https://img.shields.io/github/stars/Orange-OpenSource/towards5gs-helm?style=social&color=white)](https://github.com/Orange-OpenSource/towards5gs-helm/stargazers) | Helm Charts for 5G Core Deployments on Kubernetes |
-| **[Ella Core](https://github.com/ellanetworks/core)** | [![GitHub stars](https://img.shields.io/github/stars/ellanetworks/core?style=social&color=white)](https://github.com/ellanetworks/core/stargazers) | Lightweight eBPF-Powered Enterprise 5G Core |
-| **[OCUDU](https://github.com/OCUDU/OCUDU)** | [![GitHub stars](https://img.shields.io/github/stars/OCUDU/OCUDU?style=social&color=white)](https://github.com/OCUDU/OCUDU/stargazers) | Disaggregated O-RAN CU/DU Implementation |
-| **[open5gs-operator](https://github.com/Gradiant/open5gs-operator)** | [![GitHub stars](https://img.shields.io/github/stars/Gradiant/open5gs-operator?style=social&color=white)](https://github.com/Gradiant/open5gs-operator/stargazers) | Kubernetes Operator for Automated Open5GS Lifecycle |
+| **[srsRAN](https://github.com/srsran/srsRAN)** | [![GitHub_Stars](https://img.shields.io/github/stars/srsran/srsRAN?style=social&color=white)](https://github.com/srsran/srsRAN/stargazers) | Legacy 4G LTE eNodeB & EPC SDR Stack |
+| **[Open5GS](https://github.com/open5gs/open5gs)** | [![GitHub_Stars](https://img.shields.io/github/stars/open5gs/open5gs?style=social&color=white)](https://github.com/open5gs/open5gs/stargazers) | 5G SA Core & 4G EPC (C Implementation) |
+| **[free5GC](https://github.com/free5gc/free5gc)** | [![GitHub_Stars](https://img.shields.io/github/stars/free5gc/free5gc?style=social&color=white)](https://github.com/free5gc/free5gc/stargazers) | 3GPP R15/R16 Cloud-Native 5G Core (Go) |
+| **[Magma](https://github.com/magma/magma)** | [![GitHub_Stars](https://img.shields.io/github/stars/magma/magma?style=social&color=white)](https://github.com/magma/magma/stargazers) | Converged Mobile Core & Federated Gateway |
+| **[srsRAN Project](https://github.com/srsran/srsRAN_Project)** | [![GitHub_Stars](https://img.shields.io/github/stars/srsran/srsRAN_Project?style=social&color=white)](https://github.com/srsran/srsRAN_Project/stargazers) | Commercial-Grade 5G NR CU/DU gNodeB Stack |
+| **[UERANSIM](https://github.com/aligungr/UERANSIM)** | [![GitHub_Stars](https://img.shields.io/github/stars/aligungr/UERANSIM?style=social&color=white)](https://github.com/aligungr/UERANSIM/stargazers) | 5G UE & gNodeB State-Machine Simulator |
+| **[docker_open5gs](https://github.com/herlesupreeth/docker_open5gs)** | [![GitHub_Stars](https://img.shields.io/github/stars/herlesupreeth/docker_open5gs?style=social&color=white)](https://github.com/herlesupreeth/docker_open5gs/stargazers) | Containerized Docker Compose Open5GS Setup |
+| **[OMEC UPF](https://github.com/omec-project/upf)** | [![GitHub_Stars](https://img.shields.io/github/stars/omec-project/upf?style=social&color=white)](https://github.com/omec-project/upf/stargazers) | High-Performance 5G/4G User Plane (ONF SD-Core) |
+| **[OpenAirInterface (OAI)](https://github.com/OPENAIRINTERFACE/openairinterface5g)** | [![GitHub_Stars](https://img.shields.io/github/stars/OPENAIRINTERFACE/openairinterface5g?style=social&color=white)](https://github.com/OPENAIRINTERFACE/openairinterface5g/stargazers) | 3GPP 4G/5G Full Stack (RAN, Core, O-RAN) |
+| **[towards5gs-helm](https://github.com/Orange-OpenSource/towards5gs-helm)** | [![GitHub_Stars](https://img.shields.io/github/stars/Orange-OpenSource/towards5gs-helm?style=social&color=white)](https://github.com/Orange-OpenSource/towards5gs-helm/stargazers) | Helm Charts for 5G Core Deployments on Kubernetes |
+| **[Ella Core](https://github.com/ellanetworks/core)** | [![GitHub_Stars](https://img.shields.io/github/stars/ellanetworks/core?style=social&color=white)](https://github.com/ellanetworks/core/stargazers) | Lightweight eBPF-Powered Enterprise 5G Core |
+| **[OCUDU](https://github.com/OCUDU/OCUDU)** | [![GitHub_Stars](https://img.shields.io/github/stars/OCUDU/OCUDU?style=social&color=white)](https://github.com/OCUDU/OCUDU/stargazers) | Disaggregated O-RAN CU/DU Implementation |
+| **[open5gs-operator](https://github.com/Gradiant/open5gs-operator)** | [![GitHub_Stars](https://img.shields.io/github/stars/Gradiant/open5gs-operator?style=social&color=white)](https://github.com/Gradiant/open5gs-operator/stargazers) | Kubernetes Operator for Automated Open5GS Lifecycle |
 
 ---
 
