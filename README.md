@@ -1,36 +1,46 @@
-# Awesome Private Cellular Network (5G & LTE)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Private Cellular Network (5G & LTE) Banner" width="100%">
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+# 📡 Awesome Private Cellular Network (5G & LTE)
 
-> A curated list of SaaS products, commercial platforms, and open-source GitHub projects for deploying, orchestrating, and testing **Private 5G and LTE Cellular Networks**, self-hosted 5G Cores, and Open RAN (O-RAN) infrastructure.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List"/></a>
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🚀 A curated list of SaaS products, commercial platforms, and open-source GitHub projects for deploying, orchestrating, and testing **Private 5G and LTE Cellular Networks**, self-hosted 5G Cores, and Open RAN (O-RAN) infrastructure.
 
 A comprehensive resource for network engineers, telecom researchers, and enterprises building private wireless networks for industrial IoT, smart campuses, and mission-critical connectivity without relying on public carrier infrastructure.
 
 ---
 
-## Table of Contents
-- [Market Overview](#market-overview)
-- [SaaS & Managed Private Cellular Platforms](#saas--managed-private-cellular-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-  - [Open-Source Standings & Star Badges](#open-source-standings--star-badges)
-  - [5G Core Networks](#5g-core-networks)
-  - [RAN & gNodeB/eNodeB Implementations](#ran--gnodebenodeb-implementations)
-  - [Simulators, Emulators & Testing Tools](#simulators-emulators--testing-tools)
-  - [Testbeds & Wireless Research Platforms](#testbeds--wireless-research-platforms)
-- [Architecture & Frameworks](#architecture--frameworks)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Security Considerations](#disclaimer--security-considerations)
+## 📑 Table of Contents
+- [🌐 Market Overview](#-market-overview)
+- [🏢 SaaS & Managed Private Cellular Platforms](#-saas--managed-private-cellular-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Open-Source Standings & Star Badges](#-open-source-standings--star-badges)
+  - [🧠 5G Core Networks](#-5g-core-networks)
+  - [📡 RAN & gNodeB/eNodeB Implementations](#-ran--gnodebenodeb-implementations)
+  - [🧪 Simulators, Emulators & Testing Tools](#-simulators-emulators--testing-tools)
+  - [🔬 Testbeds & Wireless Research Platforms](#-testbeds--wireless-research-platforms)
+- [🏗️ Architecture & Frameworks](#%EF%B8%8F-architecture--frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [🔒 Disclaimer & Security Considerations](#-disclaimer--security-considerations)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 
 ---
 
-## Market Overview
+## 🌐 Market Overview
 
 The global **Private Cellular Network (5G & LTE) market size** is estimated at **US$ 3.8 Billion to US$ 4.5 Billion** and is projected to reach over **US$ 20 Billion by 2030** with a CAGR exceeding 20%. The market sector is **moderately fragmented**, featuring a dynamic split between mega-cap public cloud & telecom vendors (AWS, Cisco, Nokia, Ericsson, HPE/Athonet) and high-growth specialized startups (Celona, FreedomFi/Nova Labs, Betacom, Druid Software).
 
 ---
 
-## SaaS & Managed Private Cellular Platforms
+## 🏢 SaaS & Managed Private Cellular Platforms
 
 Below are leading commercial and managed private cellular platforms sorted in **descending order by company size** (market valuation or annual corporate revenue).
 
@@ -49,11 +59,11 @@ Below are leading commercial and managed private cellular platforms sorted in **
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Private cellular is one of the most active open-source domains in telecommunications. Complete, production-ready 5G Core and RAN stacks can be deployed on commodity COTS hardware or software-defined radios (SDRs).
 
-### Open-Source Standings & Star Badges
+### ⭐ Open-Source Standings & Star Badges
 
 Projects are sorted in **descending order by GitHub star count**. Each badge links directly to the repository's stargazers page.
 
@@ -75,7 +85,7 @@ Projects are sorted in **descending order by GitHub star count**. Each badge lin
 
 ---
 
-### 5G Core Networks
+### 🧠 5G Core Networks
 
 - **[Open5GS](https://github.com/open5gs/open5gs)** — The leading open-source 5G core network (AGPL-3.0). Implements complete 5G SA (Standalone) and 4G LTE EPC standards. Capable of running on Raspberry Pi 5 up to high-density x86 servers, achieving over 200 Mbps throughput with ~30ms latency.
 - **[Ella Core](https://github.com/ellanetworks/core)** — Production-geared, lightweight 5G core network (Apache-2.0). Features an eBPF-based data plane delivering 5+ Gbps throughput and under 1.5ms latency with minimal hardware requirements (2 CPU cores, 2GB RAM).
@@ -85,7 +95,7 @@ Projects are sorted in **descending order by GitHub star count**. Each badge lin
 
 ---
 
-### RAN & gNodeB/eNodeB Implementations
+### 📡 RAN & gNodeB/eNodeB Implementations
 
 - **[srsRAN Project](https://github.com/srsran/srsRAN_Project)** — Commercial-grade open-source 5G RAN stack (AGPL-3.0) featuring a complete 5G NR gNodeB implementation scalable from small boards to enterprise servers.
 - **[srsRAN (Legacy 4G/5G)](https://github.com/srsran/srsRAN)** — Classic software-defined radio (SDR) UE and eNodeB/gNodeB suite for 4G LTE and early 5G testing.
@@ -94,7 +104,7 @@ Projects are sorted in **descending order by GitHub star count**. Each badge lin
 
 ---
 
-### Simulators, Emulators & Testing Tools
+### 🧪 Simulators, Emulators & Testing Tools
 
 - **[UERANSIM](https://github.com/aligungr/UERANSIM)** — Open-source 5G UE and gNodeB simulator (GPL-3.0) designed to test 5G core network functions, control plane signaling, and user plane data traffic without physical SDR radios.
 - **[docker_open5gs](https://github.com/herlesupreeth/docker_open5gs)** — Ready-to-use Docker and Docker-Compose deployment recipes for Open5GS integrated with UERANSIM and Kamailio IMS for VoNR/VoLTE testing.
@@ -104,7 +114,7 @@ Projects are sorted in **descending order by GitHub star count**. Each badge lin
 
 ---
 
-### Testbeds & Wireless Research Platforms
+### 🔬 Testbeds & Wireless Research Platforms
 
 - **[Colosseum](https://www.colosseum.net/)** — World's largest wireless network emulator with SDR devices for AI-driven radio management, 5G/6G, and O-RAN research.
 - **[POWDER](https://powderwireless.net/)** — Reconfigurable outdoor wireless testbed at the University of Utah for mobile network research and software-defined network experimentation.
@@ -113,7 +123,7 @@ Projects are sorted in **descending order by GitHub star count**. Each badge lin
 
 ---
 
-## Architecture & Frameworks
+## 🏗️ Architecture & Frameworks
 
 Building custom private 5G/LTE networks typically involves combining components from across the stack:
 
@@ -124,7 +134,7 @@ Building custom private 5G/LTE networks typically involves combining components 
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -135,7 +145,7 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## Disclaimer & Security Considerations
+## 🔒 Disclaimer & Security Considerations
 
 - **Regulatory & Spectrum Compliance**: Private cellular deployments operating in CBRS (Band 48), sub-6 GHz, or mmWave spectrum require compliance with local spectrum allocation rules (e.g., FCC SAS in the US). Always verify radio licensing requirements before transmitting.
 - **Network Hardening**: Open-source and enterprise 5G cores must be properly secured. Hardening steps include securing Service-Based Interfaces (SBI), enforcing PFCP authentication, configuring strict NGAP filtering, and preventing null-ciphering NAS fallbacks.
@@ -143,6 +153,24 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-<p center>
-  Made for network engineers, telecom researchers, and enterprise IT leaders building sovereign 5G/LTE infrastructure.
+## 💖 Support & Sponsorship
+
+Thank you for exploring and using this private cellular network resource! If you find this curated list valuable for your research, deployments, or open-source projects, please consider supporting the maintenance of this repository:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork & Share** it with fellow network engineers, researchers, and developers.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing updates and maintenance, check out the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support is immensely appreciated! 🙏
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Private-Cellular-Network-5g-LTE&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Private-Cellular-Network-5g-LTE&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  Made with ❤️ for network engineers, telecom researchers, and enterprise IT leaders building sovereign 5G/LTE infrastructure.
 </p>
