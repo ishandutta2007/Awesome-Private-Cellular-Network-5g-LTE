@@ -1,8 +1,4 @@
-import re
-
-readme_path = r'C:\Users\hp\Documents\Projects\Awesome-Private-Cellular-Network-5g-LTE\README.md'
-
-new_readme = """# Awesome Private Cellular Network (5G & LTE)
+# Awesome Private Cellular Network (5G & LTE)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -150,9 +146,3 @@ Contributions are welcome! Please follow these guidelines:
 <p center>
   Made for network engineers, telecom researchers, and enterprise IT leaders building sovereign 5G/LTE infrastructure.
 </p>
-"""
-
-with open(readme_path, 'w', encoding='utf-8') as f:
-    f.write(new_readme)
-
-print("Successfully wrote updated README.md")
